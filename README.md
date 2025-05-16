@@ -27,3 +27,18 @@ TTA-Sim2Real/
 The complete real and synthetic dataset is hosted on Hugging face:
 
 🔗 Download from: https://huggingface.co/datasets/NeFr25/TTA_Tidal_Turbine_Assembly_Visual_Dataset
+
+🚀 Training
+YOLO training scripts are included in the training/ directory.
+
+📊 Evaluation
+Run evaluation using the model predictions and ground truth annotations, the YOLO evaluation scripts are included in evaluation/ directory.
+
+🔍 Inference
+TH eenference scripts are included in inference/ directory.
+
+✍️ CVAT Annotation
+See cvat_tutorial.md for:
+-How to install CVAT locally
+-How to annotate images
+-How to export in YOLO or COCO format
