@@ -5,7 +5,7 @@ This repository accompanies the paper **"TTA-Sim2Real: A Mixed Real–Synthetic 
 Key components of the repository include:
 - Scripts for training, evaluation, and inference of object detection models (YOLO-based)
 - A CVAT setup for semi-automatic annotation guide
-- Scripts for data preparation: data split, Conversion from unity perception annotaion to YOLO format
+- Scripts for data preparation: data split, Conversion from unity perception annotation to YOLO format
 - Instructions for environment setup and dependencies
 
 - > ⚠️ **Note:** Full datasets are hosted on Hagging Face due to their size. 
