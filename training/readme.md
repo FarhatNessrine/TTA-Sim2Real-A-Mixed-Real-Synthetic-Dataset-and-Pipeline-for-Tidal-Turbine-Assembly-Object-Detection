@@ -1,8 +1,7 @@
 #Training Scripts Overview#
 This folder contains Python scripts for fine-tuning YOLOv8 and YOLOv9 models on real and synthetic data from the TTA video dataset. We provide separate configurations for two versions of the controlled real dataset:
 
--One with ~12,000 annotated frames (7 classes)
--Another with ~4,800 annotated frames (6 classes)
+-One with ~12,000 annotated frames (7 classes); and another with ~4,800 annotated frames (6 classes)
 Then the idea is to finetune the models pretrained on controlled real data, using synthetic data. 
 
 The goal is to evaluate how the amount of real-world supervision affects model performance before and after incorporating synthetic data for sim-to-real transfer.
