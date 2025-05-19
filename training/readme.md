@@ -9,6 +9,7 @@ Then the idea is to finetune the models pretrained on controlled real data, usin
 The goal is to evaluate how the amount of real-world supervision affects model performance before and after incorporating synthetic data for sim-to-real transfer.
 
  Dataset Versions and Classes
+ 
 ✅Controlled real data: 12K Sample Set (7 classes)
 Used for full assembly monitoring, this dataset includes all components and their assembly states:
 Tidal-turbine  
@@ -40,6 +41,7 @@ Tidal-turbine
 These images are used for ablation studies and domain adaptation experiments.
 
 🛠 Available Scripts
+
 train_yolo_12k.py => Fine-tunes YOLOv8/v9 on the 12k-sample dataset with 7 classes
 train_yolo_4800.py => Trains YOLOv8/v9 on the smaller 4800-sample dataset with 6 classes
 train_synthetic.py => Continues training from a real-data-pretrained model using synthetic images from
