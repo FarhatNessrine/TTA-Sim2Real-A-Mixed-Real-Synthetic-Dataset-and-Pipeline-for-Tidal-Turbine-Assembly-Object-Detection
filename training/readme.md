@@ -43,5 +43,7 @@ These images are used for ablation studies and domain adaptation experiments.
 🛠 Available Scripts
 
 train_yolo_12k.py => Fine-tunes YOLOv8/v9 on the 12k-sample dataset with 7 classes
+
 train_yolo_4800.py => Trains YOLOv8/v9 on the smaller 4800-sample dataset with 6 classes
+
 train_synthetic.py => Continues training from a real-data-pretrained model using synthetic images from
