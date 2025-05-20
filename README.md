@@ -16,7 +16,8 @@ Key components of the repository include:
 TTA-Sim2Real/
 ├── training/                 # Training scripts and YOLO configuration
 ├── evaluation/               # Evaluation scripts and metrics
-├── inference/                # Inference scripts 
+├── inference/                # Inference scripts
+├── Checkpoints/              # Models checkpoints
 ├── dataset_preparation/      # Annotation format conversion and split scripts
 ├── cvat_tutorial.md          # Step-by-step CVAT setup and usage guide
 ├── requirements.txt          # Python requirements for YOLO training/inference
