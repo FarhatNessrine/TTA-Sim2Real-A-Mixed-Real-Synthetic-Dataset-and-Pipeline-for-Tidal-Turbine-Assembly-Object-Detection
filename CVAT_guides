@@ -42,4 +42,14 @@ docker compose -f docker-compose.yml -f docker-compose.dev.yml -f components/ser
 
 This command launches the Nuclio Dashboard on http://localhost:8070, where users can create projects and deploy serverless functions (e.g., YOLO-based inference or segmentation tools). Functions can be created from local code, Git repositories, or predefined templates.
 
-For more details: https://docs.cvat.ai/docs/manual/advanced/serverless-tutorial/
+For more details: https://docs.cvat.ai/docs/administration/advanced/installation_automatic_annotation/
+
+## 🧠 AI Inference Functions Installation
+
+Once Nuclio is running, we deployed serverless functions such as **SAM**, **MILTracker**, and **YOLOv7** to enable automatic annotation and object tracking directly in CVAT, using the following commands:
+./serverless/deploy_gpu.sh ./serverless/pytorch/facebookresearch/sam/nuclio/
+./serverless/deploy_cpu.sh ./serverless/onnx/WongKinYiu/yolov7/nuclio/
+
+
+
+
