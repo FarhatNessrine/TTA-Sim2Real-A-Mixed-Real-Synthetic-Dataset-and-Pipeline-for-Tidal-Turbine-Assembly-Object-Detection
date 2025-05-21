@@ -1,0 +1,23 @@
+# 🛠️ Installation Environment Setup: WSL, Ubuntu, Docker, CVAT, and Nuclio
+
+**Modular AI-Based Computer Vision Workflow**  
+This guide describes how to set up a reproducible development environment using **WSL**, **Ubuntu**, **Docker**, **CVAT**, and **Nuclio** on a Windows host. It enables streamlined dataset annotation and AI inference using Linux-native tools within a Windows system.
+---
+
+## 📦 System Requirements
+
+- Windows 10/11 with WSL2 support
+- Docker Desktop
+- 
+---
+
+## 1️⃣ Windows Subsystem for Linux (WSL) & Ubuntu
+
+WSL allows you to run Linux distributions on Windows. We use **WSL 2** for better Docker integration and performance.
+
+### ✅ Installation
+
+Open **PowerShell as Administrator** and run:
+
+```bash
+wsl --install
