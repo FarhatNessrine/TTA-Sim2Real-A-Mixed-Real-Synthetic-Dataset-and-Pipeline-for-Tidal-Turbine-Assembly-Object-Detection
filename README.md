@@ -40,6 +40,3 @@ TH eenference scripts are included in inference/ directory.
 
 ✍️ CVAT Annotation
 See cvat_tutorial.md for:
--How to install CVAT locally
--How to annotate images
--How to export in YOLO or COCO format
